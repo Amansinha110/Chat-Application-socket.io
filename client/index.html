@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Real-time chat application using Socket.IO">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Real-Time Chat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1>Socket.IO Chat</h1>
+        </header>
+        
+        <main class="chat-main">
+            <div class="chat-messages" id="messages" aria-live="polite"></div>
+        </main>
+        
+        <form class="chat-input" id="message-form">
+            <input 
+                type="text" 
+                id="message-input" 
+                name="message"
+                placeholder="Type your message..." 
+                aria-label="Message input"
+                autocomplete="off"
+                required
+            >
+            <button type="submit" id="send-button">Send</button>
+        </form>
+        
+        <form class="join-form" id="join-form">
+            <input 
+                type="text" 
+                id="username-input" 
+                name="username"
+                placeholder="Enter your name" 
+                aria-label="Username input"
+                required
+                minlength="2"
+                maxlength="20"
+            >
+            <button type="submit" id="join-button">Join Chat</button>
+        </form>
+    </div>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
