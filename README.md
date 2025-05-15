@@ -74,6 +74,15 @@ Index.html
 </body>
 </html>
 ```
+
+
+<div class="weather-icon">
+      <img src="https://github.com/Amansinha110/Chat-Application-socket.io/blob/master/Screenshot%202025-05-15%20042019.png" alt="Weather-webpage">
+</div>
+
+
+
+
 ```javascript
 style.css
 body {
