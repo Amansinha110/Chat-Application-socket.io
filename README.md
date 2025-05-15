@@ -15,6 +15,7 @@
 I am Aman Kumar, with the expert guidance of mentor Neela Santosh from CODTECH IT SOLUTIONS, has developed a cutting-edge real-time chat application using Socket.IO. This project leverages WebSockets to enable seamless and instant communication, ensuring a responsive and efficient messaging experience. By implementing robust features and optimizing real-time data exchange, Aman has demonstrated strong technical expertise in modern web development. His work showcases innovation, scalability, and a commitment to delivering reliable user interactions in dynamic web applications.
 
 <h1>Example code </h1>
+
 ```javascript
 Index.html
 <!DOCTYPE html>
